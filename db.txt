@@ -1,0 +1,34 @@
+Database Design
+
+User 
+   username
+   password
+   phone number
+
+Category
+   id
+   name
+
+Food
+   id
+   name
+   description
+   price
+   category_id
+
+Table
+   number
+   is_available
+
+Order
+   id
+   user_id
+   table_id
+   status
+   payment_status
+   total_price
+
+order_item
+   id
+   order_id
+   food_id
